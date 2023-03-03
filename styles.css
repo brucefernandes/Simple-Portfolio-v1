@@ -14,7 +14,7 @@ body {
     color: #FFF8F0;
     min-width: 300px;
     /* display: flex; */
-    box-shadow: inset -5px 0px 5px -5px rgba(19, 18, 18, 0.179);
+    box-shadow: inset -5px 0px 10px -5px black;
 
     padding: 1.7rem 1rem;
 
@@ -206,10 +206,6 @@ body {
         display: block;
     }
 
-    /* body {
-        padding-top: 8rem;
-    } */
-
     .sidebar {
 
         position: fixed;
@@ -219,8 +215,7 @@ body {
         width: 100%;
         max-width: 300px;
         transition: 0.2s linear;
-        box-shadow: none;
-        /* box-shadow: inset -5px 0px 5px -5px rgba(19, 18, 18, 0.179); */
+
     }
 
     .sidebar.is-active {
