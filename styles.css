@@ -5,16 +5,57 @@ body {
     min-height: 100vh;
     display: flex;
     margin: 0;
+    font-family: 'Rubik', sans-serif;
 }
 
+<<<<<<< Updated upstream
 .sidebar-container {
     background-color: #0D0D28;
+=======
+
+
+.sidebar {
+    background-color: #000814;
+>>>>>>> Stashed changes
     color: #FFF8F0;
     min-width: 300px;
     display: flex;
 
 
 
+<<<<<<< Updated upstream
+=======
+.sidebar>* {
+    /* font-family: 'Nunito', sans-serif; */
+    font-size: 1.3em;
+}
+
+.sidebar h3 {
+    color: #FFF8F0;
+    font-size: 29px;
+    text-transform: uppercase;
+    margin-bottom: 2.2em
+}
+
+.sidebar .menu {
+    margin: 0 -1rem;
+    overflow: auto;
+}
+
+.sidebar .menu .menu-item {
+    display: block;
+    padding: 1.2em;
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.2s linear;
+    font-size: 20px
+}
+
+.sidebar .menu .menu-item:hover,
+.sidebar .menu .menu-item.is-active {
+    color: #ffd60a;
+    border-right: 5px solid #ffd60a;
+>>>>>>> Stashed changes
 }
 
 .content {
@@ -38,7 +79,7 @@ body {
     display: flex;
     /* flex-direction: column; */
     height: 100vh;
-    background: #15153F;
+    background: #001845;
     color: #FFF8F0;
     flex-wrap: wrap;
     position: relative;
@@ -48,42 +89,89 @@ body {
 
 .profileImage {
 
+<<<<<<< Updated upstream
     height: 400px;
 }
 
 
 .name-text {
     position: relative;
+=======
+    height: 420px;
+
+}
+
+
+.title-desc {
+    /* position: relative; */
+>>>>>>> Stashed changes
     margin: auto;
     text-align: center;
-    font-size: 1.25em;
-    font-family: 'Rubik', sans-serif;
 
+}
+
+.title-name {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.title-dev {
+    font-size: 1.9em;
+    font-weight: 900;
 }
 
 
 .about-container {
+<<<<<<< Updated upstream
     height: 250px;
     background: #eeebd3;
+=======
+    height: 385px;
+    background: #e59500;
+>>>>>>> Stashed changes
     text-align: center;
     color: black;
-    font-family: "Raleway", sans-serif;
+    padding-top: 5px;
+    display: flex;
     flex-wrap: wrap;
+<<<<<<< Updated upstream
     padding-top: 30px
+=======
+
+>>>>>>> Stashed changes
 }
 
-.about-heading {
-    font-size: 2.25em;
-    font-family: 'Rubik', sans-serif;
+.about-container>div {
+    margin: auto;
+    text-align: center;
 }
 
+<<<<<<< Updated upstream
 .about-content {
     font-size: 1.25em;
     font-family: 'Rubik', sans-serif;
+=======
+.about-container>div>h3 {
+    font-size: 2.7em;
+    font-weight: 900;
+
+>>>>>>> Stashed changes
+}
+
+.about-container>div>p {
+
+    font-size: 1.6em;
+    font-weight: 500;
+    width: 900px;
+    line-height: 1.7;
 }
 
 .skills-container {
+<<<<<<< Updated upstream
     background: #282C34;
+=======
+    background: #001d3d;
+>>>>>>> Stashed changes
     color: #FFF8F0;
     text-align: center;
 }
