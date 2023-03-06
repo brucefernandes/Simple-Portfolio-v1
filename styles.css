@@ -5,7 +5,7 @@ body {
     min-height: 100vh;
     display: flex;
     margin: 0;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .content {
@@ -28,7 +28,7 @@ body {
 .sidebar {
     background-color: #0d1b2a;
     color: #FFF8F0;
-    min-width: 350px;
+    min-width: 250px;
     /* display: flex; */
     box-shadow: inset -5px 0px 10px -5px black;
 
@@ -41,7 +41,7 @@ body {
 
 .sidebar h3 {
     color: #FFF8F0;
-    font-size: 32px;
+    font-size: 28px;
 
     margin-bottom: 3rem;
     font-weight: 200;
@@ -51,6 +51,7 @@ body {
 .sidebar .menu {
     margin: 0 -1rem;
     overflow: auto;
+    font-family: 'Raleway', sans-serif;
 
 }
 
@@ -61,7 +62,7 @@ body {
     text-decoration: none;
     transition: 0.2s linear;
 
-    font-size: 24px;
+    font-size: 18px;
 
 }
 
@@ -87,7 +88,7 @@ body {
 
 .profileImage {
 
-    height: 425px;
+    height: 380px;
 
 }
 
@@ -96,8 +97,8 @@ body {
     /* position: relative; */
     margin: auto;
     text-align: center;
-    font-size: 1.5em;
-    font-weight: 1200;
+    font-size: 1.2em;
+    font-weight: 900;
 
 
 }
@@ -111,7 +112,6 @@ body {
     /* flex-wrap: wrap; */
 
     color: black;
-    /* padding-top: 20px */
 }
 
 .about-container>div {
@@ -122,12 +122,12 @@ body {
 }
 
 .about-title {
-    font-size: 36px;
+    font-size: 34px;
     font-weight: 1200;
 }
 
 .about-para {
-    font-size: 24px;
+    font-size: 21px;
     line-height: 1.4;
 
 }
