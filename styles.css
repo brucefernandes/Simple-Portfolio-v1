@@ -39,7 +39,7 @@ body {
 
 
 
-.sidebar h3 {
+.sidebar>h3 {
     color: #FFF8F0;
     font-size: 28px;
 
@@ -105,46 +105,62 @@ body {
 
 
 .about-container {
-    height: 350px;
+    height: 250px;
     /* background: #C9D4F4; */
     background: #ffb627;
-    display: flex;
-    /* flex-wrap: wrap; */
-
     color: black;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
-.about-container>div {
-    width: 900px;
-    margin: auto;
+.about-div {
     text-align: center;
-
+    width: 65%;
+    
 }
 
-.about-title {
-    font-size: 34px;
-    font-weight: 1200;
+.about-heading {
+    font-size: 28px;
 }
 
 .about-para {
     font-size: 21px;
     line-height: 1.4;
-
 }
 
 .skills-container {
-    background: #15153F;
+    background: #00296b;
     color: #FFF8F0;
+    height: 400px;
+    
+    /* justify-content: center; */
+
+}
+
+.skills-div{
     text-align: center;
-    font-size: 2.0em;
-    font-family: 'Rubik', sans-serif;
+}
+.skills-heading{
+    font-size: 28px;
+}
+
+.skills-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+    font-size: 18px;
 }
 
 .projects-container {
-    background: #595758;
+    background: #ffb627;
     text-align: center;
-    color: #FFF8F0;
-    padding-top: 20px
+    color: #170f11;
+    
 }
 
 .menu-toggle {
