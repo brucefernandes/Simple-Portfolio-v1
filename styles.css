@@ -113,12 +113,18 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 
 }
 
-.about-div {
-    text-align: center;
-    width: 65%;
+.about-div-root {
+    /* text-align: center;
+    width: 65%; */
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -160,9 +166,9 @@ body {
     background: #ffb627;
     color: black;
     height: fit-content;
-
+    padding: 0px 60px 50px;
     flex-wrap: wrap;
-    
+    text-align: center;
 }
 .experience-div{
     margin: 0px 60px 50px;
@@ -346,3 +352,18 @@ body {
         left: 0;
     }
 }
+
+
+@media (min-width: 1280px){
+    .about-div-maxWidthLg {
+    max-width: 1280px;
+    }
+}
+
+@media (min-width: 600px){
+    .about-div-root {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
