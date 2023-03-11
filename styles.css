@@ -16,8 +16,6 @@ body {
     overflow: auto;
     justify-content: flex-start;
     color: #DEB992
-
-
 }
 
 .content>* {
@@ -28,7 +26,7 @@ body {
 
 .sidebar {
     background-color: #081521;
-   
+
     /* color: #1BA098; */
     min-width: 250px;
     /* display: flex; */
@@ -105,7 +103,8 @@ body {
 
 
 }
-.section-heading{
+
+.section-heading {
     text-align: center;
     font-size: 2.8em;
     font-weight: 400;
@@ -131,7 +130,7 @@ body {
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 
@@ -151,11 +150,11 @@ body {
 }
 
 
-.skills-heading{
+.skills-heading {
     font-size: 28px;
 }
 
-.skills-flex{
+.skills-flex {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -164,7 +163,12 @@ body {
     font-size: 18px;
 }
 
-.experience-container{
+.skills-item>img {
+    width: 50px;
+    /* font-size: 5px; */
+}
+
+.experience-container {
     background: #001F34;
     /* color: black; */
     height: fit-content;
@@ -172,24 +176,26 @@ body {
     flex-wrap: wrap;
     text-align: center;
 }
-.experience-div{
+
+.experience-div {
     margin: 0px 60px 50px;
 }
 
 
 
-.experience-subheading{
-  
+.experience-subheading {
+
     text-align: left;
     font-size: 1.3em;
     font-weight: 400;
     margin: 24px 0 0;
 }
-.experience-content{
+
+.experience-content {
     margin-bottom: 50px;
 }
 
-.experience-title{
+.experience-title {
     /* -webkit-font-smoothing: antialiased;
     font-family: "Raleway",sans-serif;
     scroll-behavior: smooth; */
@@ -198,11 +204,11 @@ body {
     margin: 10px 0;
 }
 
-.experience-section{
+.experience-section {
     text-align: center;
     /* font-size: calc(10px + 2vmin); */
     /* color: #fff; */
-    font-family: "Raleway",sans-serif;
+    font-family: "Raleway", sans-serif;
     scroll-behavior: smooth;
     display: flex;
     flex-direction: row;
@@ -210,11 +216,12 @@ body {
     max-width: fit-content;
 }
 
-.experience-first{
+.experience-first {
     flex: 1 1
 }
-.experience-year{
-    
+
+.experience-year {
+
     white-space: nowrap;
     text-align: left;
     /* font-size: .8em;
@@ -223,21 +230,21 @@ body {
     /* color: #ecebe7; */
 }
 
-.experience-program{
+.experience-program {
 
     text-align: left;
     /* font-size: .8em; */
     margin: 10px 0;
     /* color: #ecebe7; */
 }
-.experience-addition{
-  
+
+.experience-addition {
+
     text-align: left;
     font-size: 1em;
     font-weight: 300;
     margin: 0px 0px;
     line-height: 1em;
-    /* color: #ecebe7; */
     white-space: pre-wrap;
 }
 
@@ -249,42 +256,47 @@ body {
 
 .projects-container {
     background: #081521;
-    /* color: #FFF8F0; */
-    /* font-size: calc(10px + 2vmin); */
-    /* scroll-behavior: smooth; */
+
     padding: 0 60px;
     flex-wrap: wrap;
     text-align: left;
-    
+
 }
+
 .projects-container .projects-material-container>div:not(:first-child) {
     margin-bottom: 70px;
 }
-.projects-container .project-title{
+
+.projects-container .project-title {
     margin: 0px;
     font-size: 1.4em;
-    font-weight:200;
+    font-weight: 200;
 }
+
 .projects-container .project-info * {
     margin: 8px 0;
 }
-.project-info{
+
+.project-info {
     display: flex;
     flex-direction: row;
 }
 
-.projects-container .project-info .project-year{
+.projects-container .project-info .project-year {
     font-size: 0.9em;
     margin-right: 15px;
 }
-.projects-container .project-info .project-purpose{
+
+.projects-container .project-info .project-purpose {
     font-size: 0.9em;
     margin-left: 15px;
 }
-.projects-container .project-image{
+
+.projects-container .project-image {
     width: 100%;
-    
+
 }
+
 .projects-container .project-content {
     /* font-size: .8em; */
     font-weight: 300;
@@ -388,24 +400,25 @@ body {
     }
 }
 
-@media (max-width: 640px){
+@media (max-width: 640px) {
     .about-container {
         padding: 0 20px 50px;
     }
+
     .about-para {
         margin-bottom: 0px;
     }
 }
-@media (min-width: 1280px){
+
+@media (min-width: 1280px) {
     .container-wrapper-maxWidthLg {
-    max-width: 1280px;
+        max-width: 1280px;
     }
 }
 
-@media (min-width: 600px){
+@media (min-width: 600px) {
     .container-wrapper {
         padding-left: 24px;
         padding-right: 24px;
     }
 }
-
