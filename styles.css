@@ -27,9 +27,7 @@ body {
 .sidebar {
     background-color: #081521;
 
-    /* color: #1BA098; */
     min-width: 250px;
-    /* display: flex; */
     box-shadow: inset -5px 0px 10px -5px black;
 
     padding: 1.7rem 1rem;
@@ -42,9 +40,9 @@ body {
 
 
 .sidebar>h3 {
-    font-size: 28px;
+    font-size: 1.8rem;
     color: #869BA9;
-    margin-bottom: 3rem;
+    margin-bottom: 3.2rem;
     font-weight: 200;
 
 }
@@ -63,7 +61,7 @@ body {
     text-decoration: none;
     transition: 0.2s linear;
     color: #869BA9;
-    font-size: 18px;
+    font-size: 1.2rem;
 
 }
 
@@ -81,25 +79,25 @@ body {
     height: 100vh;
     background: #081523;
     /* color: #FFF8F0; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* position: relative; */
+
 }
 
 
 
 .profileImage {
 
-    height: 380px;
+    height: 23rem;
 
 }
 
 
 .name-text {
-    /* position: relative; */
     margin: auto;
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: 900;
+    text-align: left;
+    /* font-size: 1.2em;
+    font-weight: 200; */
 
 
 }
