@@ -6,6 +6,7 @@ body {
     display: flex;
     margin: 0;
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .content {
@@ -337,11 +338,57 @@ body {
 
 .contact-container {
     background-color: #001F34;
-    height: 350px;
+    height: 20em;
+
+    
 }
 
 
+.contact-content{
+    display: flex;
+    
+}
+.section-subheading {
+    /* position:relative; */
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+    
+}
 
+.contact-item{
+    padding: 2rem;
+    /* flex-basis: 100%; */
+    text-align: center;
+    /* flex-grow: 1; */
+    flex: 1 1 100%;
+
+    
+}
+.contact-item img {
+    width: 2.7em ;
+    height: 2.7em;
+    fill: white;
+    position: relative;
+    top: 15px;
+    margin-right: 10px;
+}
+
+.contact-item a {
+    text-decoration: none;
+}
+.contact-item img:hover{
+    width: 3em ;
+    height: 3em;
+}
+.contact-item span{
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: #06bee1;
+    word-wrap: break-word;
+}
 
 .menu-toggle {
     display: none;

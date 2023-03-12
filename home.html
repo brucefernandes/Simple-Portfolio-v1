@@ -21,10 +21,12 @@
         <h3>Bruce<br> Fernandes</h3>
 
         <nav class="menu">
-            <a href="#about" class="menu-item is-active">About</a>
+            <a href="#about" class="menu-item ">About</a>
             <a href="#skills" class="menu-item">Skills</a>
             <a href="#experience" class="menu-item">Experience</a>
             <a href="#projects" class="menu-item">Projects</a>
+            <a href="#contact" class="menu-item">Contact</a>
+
         </nav>
 
 
@@ -46,26 +48,23 @@
 
                 </div>
             </div>
-
+           
 
         </div>
 
-        <div class="about-container">
+        <section id="about"class="about-container">
             <div class="container-wrapper container-wrapper-maxWidthLg">
                 <h2 class="section-heading">About Me</h2>
                 <p class="about-para">
                     I am a Full-Stack Developer with a passion for building intuitive and responsive web applications
-                    and
-                    software
-                    that are fun, user-friendly and provide meaningful solutions to real-world problems. I am a quick
-                    learner and team
-                    player who is always eager to learn and collaborate with other people to produce high-quality work.
+                    and software that are fun, user-friendly and provide meaningful solutions to real-world problems. I am a quick
+                    learner and team player who is always eager to learn and collaborate with other people to produce high-quality work.
 
                 </p>
             </div>
 
-        </div>
-        <div class="skills-container">
+        </section>
+        <section id="skills" class="skills-container">
             <div class="container-wrapper container-wrapper-maxWidthLg">
                 <h2 class="section-heading">Skills</h2>
 
@@ -73,7 +72,7 @@
                     <div class="skills-item">
                         <h3>Frontend</h3>
                         <img src="python-logo.svg" alt="Python SVG" />
-
+                        <img src="python-logo.svg" alt="Python SVG" />
 
                     </div>
                     <div class="skills-item">
@@ -86,12 +85,15 @@
 
             </div>
 
-        </div>
-        <div class="experience-container">
+        </section>
+        <section id="experience"class="experience-container">
             <div class="container-wrapper container-wrapper-maxWidthLg">
-                <h2 class="section-heading">
-                    Experience
-                </h2>
+                <!-- <a name="#experience"> -->
+                    <h2 class="section-heading">
+                        Experience
+                    </h2>
+                <!-- </a> -->
+                
                 <h3 class="experience-subheading">
                     Education
                 </h3>
@@ -129,12 +131,9 @@
                             <div class="experience-col experience-second">
                                 <h5 class="experience-program">Frontend Developer</h5>
                                 <ul class="experience-addition">
-                                    <li>Enhanced ArcSight Intelligence’s UI by improving the filtering capabilities of
-                                        array data types and data type conversion using a context menu option</li>
-                                    <li>Developed components for Micro Focus’s COVID web application using ReactJs’
-                                        state management</li>
-                                    <li>Implemented a dark mode feature for ArcSight Intelligence’s canvas gridcomponent
-                                        using React’s styled components to increase usability of the product
+                                    <li>Enhanced ArcSight Intelligence’s UI by improving the filtering capabilities of array data types and data type conversion using a context menu option</li>
+                                    <li>Developed components for Micro Focus’s COVID web application using ReactJs’ state management</li>
+                                    <li>Implemented a dark mode feature for ArcSight Intelligence’s canvas grid component using React’s styled components to increase usability of the product
                                     </li>
                                 </ul>
                             </div>
@@ -151,12 +150,9 @@
                             <div class="experience-col experience-second">
                                 <h5 class="experience-program">Wavesuite Developer</h5>
                                 <ul class="experience-addition">
-                                    <li>Created API features using Java’s Spring Framework and Flux to increase the
-                                        flexibility of endpoints</li>
-                                    <li>Designed a form component with React to enhance the filtering capability of the
-                                        WaveSuite UI</li>
-                                    <li>Understood the Agile Scrum Software Development Methodology by being part of a
-                                        team that is involved in it’s execution</li>
+                                    <li>Created API features using Java’s Spring Framework and Flux to increase the flexibility of endpoints</li>
+                                    <li>Designed a form component with React to enhance the filtering capability of the WaveSuite UI</li>
+                                    <li>Understood the Agile Scrum Software Development Methodology by being part of a team that is involved in it’s execution</li>
                                 </ul>
                             </div>
                         </div>
@@ -172,10 +168,8 @@
                             <div class="experience-col experience-second">
                                 <h5 class="experience-program">Teaching Assistant - Fundamentals of Web Development</h5>
                                 <ul class="experience-addition">
-                                    <li>Created and conducted student workshops related to NodeJS, Javascript, HTML and
-                                        CSS to improve their understanding of concepts</li>
-                                    <li>Assisted students with web development concepts such as MVC, DOM and REST during
-                                        weekly office hours</li>
+                                    <li>Created and conducted student workshops related to NodeJS, Javascript, HTML and CSS to improve their understanding of concepts</li>
+                                    <li>Assisted students with web development concepts such as MVC, DOM and REST during weekly office hours</li>
                                 </ul>
                             </div>
 
@@ -184,8 +178,8 @@
                 </div>
             </div>
 
-        </div>
-        <div class="projects-container">
+        </section>
+        <section id="projects" class="projects-container">
             <div class="container-wrapper projects-material-container container-wrapper-maxWidthLg">
                 <h2 class="section-heading">Projects</h2>
                 <div>
@@ -197,43 +191,59 @@
                     </div>
                     <img class="project-image" alt="This image shows the landing page for my honors project"
                         src="honors-project.png">
-                    <p class="project-content">A dynamic website built for Thompson Boiler Works. Containing a backend
-                        Node.js server to control API requests, frontend React server to present the UI, and all
-                        deployed to Amazon Web Services through Github Actions.</p>
-                    <a href="https://github.com/brucefernandes/Steam-Recommender-Web-App"
-                        class="projects-link">https://github.com/brucefernandes/Steam-Recommender-Web-App</a>
+                    <p class="project-content">A dynamic website built to suggest games from the Steam library based on a game that the user has seen or heard of.
+                        The website was built using the MERN stack while the data was cleaned with Python's Numpy Library.
+                        <br>
+                        Github: <a href="https://github.com/brucefernandes/Steam-Recommender-Web-App" target="_blank" rel="noopener noreferrer" class="projects-link">https://github.com/brucefernandes/Steam-Recommender-Web-App</a>
+                        <br>
+                        URL: <a href="https://brucefernandes.github.io/frontend-recommender-final/" target="_blank" rel="noopener noreferrer" class="projects-link">https://brucefernandes.github.io/frontend-recommender-final/</a>
+                    </p>
                 </div>
 
 
 
             </div>
-        </div>
+        </section>
 
-        <div class="contact-container">
+        <section id="contact" class="contact-container">
             <div class="container-wrapper container-wrapper-maxWidthLg">
-                <h2 class="section-heading">Contact Me</h2>
-
-                <div class="skills-flex">
-                    <div class="skills-item">
-                        <div class="">
-                            <span class="">Email<img src="python-logo.svg" alt="Python SVG" />
-
+                <h3 class="section-heading">Contact Me</h3>
+                <h4 class="section-subheading">Connect with me through the following links</h4>
+                <div class="contact-content">
+                    <div class="contact-item">
+                        <a href="brucef300@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-link">
+                            <img src="mail.svg" alt="Mail SVG" />
+                            <span>
+                                Gmail
                             </span>
-                        </div>
-
-
-
+                        </a>
                     </div>
-                    <div class="skills-item">
-                        <h3>Github</h3>
+                    <div class="contact-item">
+                        <a href="https://github.com/brucefernandes" target="_blank" rel="noopener noreferrer" class="contact-link">
+                            <img src="github-mark-white.svg" alt="Github SVG" />
+                            <span>
+                                Github
+                            </span>
+                        </a>
+                        
                     </div>
-                    <div class="skills-item">
-                        <h3>LinkedIn</h3>
+                    <div class="contact-item">
+                        <a href="https://www.linkedin.com/in/bruce-fernandes/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                            <img src="linkedin.svg" alt="LinkedIn SVG" />
+                            <span>
+                                LinkedIn
+                            </span>
+                        </a>
                     </div>
+                    
+                
                 </div>
+                
+                
+
 
             </div>
-        </div>
+        </section>
 
 
 
@@ -245,6 +255,7 @@
                 menu_toggle.classList.toggle('is-active');
                 sidebar.classList.toggle('is-active');
             });
+
         </script>
     </div>
 
