@@ -106,7 +106,6 @@ body {
 
     height: 23rem;
 
-
 }
 
 .name-text .intro{
@@ -548,13 +547,16 @@ body {
     .experience-section {
         flex-direction: column;
     }
-
+    .profileImage{
+        height: 15rem;
+    }
 }
 
 @media (min-width: 1280px) {
     .container-wrapper-maxWidthLg {
         max-width: 1280px;
     }
+    
 }
 
 @media (min-width: 600px) {
@@ -562,5 +564,5 @@ body {
         padding-left: 24px;
         padding-right: 24px;
     }
-
+    
 }
