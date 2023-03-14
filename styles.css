@@ -109,17 +109,35 @@ body {
 
 }
 
-
-.name-text>h1 {
+.name-text .intro{
+    color: #06bee1;
     text-align: left;
-    font-size: 3.5rem;
-    font-weight: 400;
-}
 
+}
 .name-text>h2 {
     text-align: left;
-    font-size: 2.3rem;
-    font-weight: 400;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.name-text>h3 {
+    text-align: left;
+    font-size: 3.0rem;
+    font-weight: 600;
+    margin: 0;
+    /* color: #E7CCAF; */    
+    color: #B39F8A;
+
+}
+.name-text .info{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #B39F8A;
+    text-align: left;
+
+
 }
 
 
@@ -156,9 +174,10 @@ body {
 
 
 .about-para {
-    font-size: 1.3rem;
+    font-size: 1.27rem;
     line-height: 1.4;
     margin-bottom: 70px;
+
 }
 
 .skills-container {
